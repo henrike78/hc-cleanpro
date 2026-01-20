@@ -6,15 +6,15 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>HY&amp;C Clean Pro - Limpieza profesional en Barcelona</title>
+        <title>H&amp;C Clean Pro - Limpieza profesional en Barcelona</title>
         <meta
           name="description"
-          content="HY&C Clean Pro: Empresa de limpieza profesional en Barcelona. Limpieza de comunidades, oficinas, limpiezas de obra y más."
+          content="H&C Clean Pro: Empresa de limpieza profesional en Barcelona. Limpieza de comunidades, oficinas, limpiezas de obra y más."
         />
       </Head>
 
       <section>
-        <h1>Bienvenido a HY&amp;C Clean Pro</h1>
+        <h1>Bienvenido a H&amp;C Clean Pro</h1>
         <p>
           Tu empresa de <strong>limpieza profesional en Barcelona</strong>. Nos especializamos en mantener tus espacios
           impecables: comunidades de vecinos, oficinas, locales y limpiezas de obra.
@@ -29,13 +29,15 @@ export default function HomePage() {
       </section>
 
       <section>
-        <Image
-          src="https://images.pexels.com/photos/9462636/pexels-photo-9462636.jpeg"
-          width={1200}
-          height={800}
-          alt="Equipo de limpieza en una oficina"
-          priority
-        />
+        <div className="hero-wrapper">
+          <Image
+            src="/hero.jpg"
+            width={1600}
+            height={900}
+            alt="Equipo de limpieza profesional H&C Clean Pro"
+            priority
+          />
+        </div>
       </section>
 
       <section>
@@ -47,7 +49,7 @@ export default function HomePage() {
           <li>✅ Servicios puntuales y de mantenimiento</li>
         </ul>
         <p>
-          En <strong>HY&amp;C Clean Pro</strong> ofrecemos soluciones integrales de limpieza, ya sea mantenimiento
+          En <strong>H&amp;C Clean Pro</strong> ofrecemos soluciones integrales de limpieza, ya sea mantenimiento
           periódico o servicios puntuales de alta exigencia. Conoce más en la sección{' '}
           <Link href="/services">
             <a>Servicios</a>

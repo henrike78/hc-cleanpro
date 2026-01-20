@@ -13,10 +13,10 @@ export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Contacto – HY&amp;C Clean Pro</title>
+        <title>Contacto – H&amp;C Clean Pro</title>
         <meta
           name="description"
-          content="Contacta con HY&C Clean Pro: solicita tu presupuesto de limpieza en Barcelona. Formulario de contacto, teléfono y email."
+          content="Contacta con H&C Clean Pro: solicita tu presupuesto de limpieza en Barcelona. Formulario de contacto, teléfono y email."
         />
       </Head>
 

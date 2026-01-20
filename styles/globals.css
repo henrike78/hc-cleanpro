@@ -27,9 +27,16 @@ nav {
   justify-content: space-between;
 }
 nav .logo {
-  font-size: 1.25rem;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
   color: #00509E;
+}
+nav .logo img {
+  border-radius: 50%;
+  display: block;
 }
 nav ul {
   display: flex;
@@ -104,6 +111,17 @@ p {
   .service-item .service-image {
     margin-bottom: 1rem;
   }
+}
+
+.hero-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.hero-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 footer {

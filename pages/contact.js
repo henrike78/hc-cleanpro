@@ -65,11 +65,11 @@ export default function ContactPage() {
           </a>
         </p>
         <p>
-          <strong>Email:</strong>{' '}
-          <a href="mailto:contacto@hyccleanpro.com">
-            contacto@hyccleanpro.com
-          </a>
-        </p>
+  <strong>Email:</strong>{' '}
+  <a href="mailto:hyccleanpro@gmail.com">
+    hyccleanpro@gmail.com
+  </a>
+</p>
         <p>
           También puedes contactarnos directamente vía WhatsApp usando el botón flotante.
         </p>

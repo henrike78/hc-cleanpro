@@ -6,21 +6,36 @@ export default function Header() {
     <header>
       <nav>
         <Link href="/">
-          <a className="logo" aria-label="H&C Clean Pro – Inicio">
+          <a className="logo" aria-label="H&C Clean Pro - Inicio">
             <Image
               src="/logo.png"
-              alt="H&C Clean Pro – Servicios de Limpieza"
+              alt="H&C Clean Pro - Servicios de Limpieza"
               width={220}
-              height={220}
-              style={{ height: '56px', width: 'auto' }}
+              height={56}
             />
           </a>
         </Link>
         <ul>
-          <li><Link href="/"><a>Inicio</a></Link></li>
-          <li><Link href="/services"><a>Servicios</a></Link></li>
-          <li><Link href="/about"><a>Sobre Nosotros</a></Link></li>
-          <li><Link href="/contact"><a>Contacto</a></Link></li>
+          <li>
+            <Link href="/">
+              <a>Inicio</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/services">
+              <a>Servicios</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/about">
+              <a>Sobre Nosotros</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact">
+              <a>Contacto</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

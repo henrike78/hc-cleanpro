@@ -1,41 +1,42 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>Sobre Nosotros – H&amp;C Clean Pro</title>
+        <title>Sobre nosotros – H&amp;C Clean Pro</title>
         <meta
           name="description"
-          content="Conoce H&C Clean Pro: empresa de limpieza en Barcelona con experiencia, equipo profesional y compromiso con la calidad."
+          content="Conoce H&C Clean Pro: empresa pequeña de limpieza en Barcelona, con trato cercano y trabajo cuidado."
         />
       </Head>
 
       <section>
-        <h1>Sobre Nosotros</h1>
+        <h1>Sobre H&amp;C Clean Pro</h1>
         <p>
-          <strong>H&amp;C Clean Pro</strong> es una empresa de limpieza en Barcelona con amplia experiencia en el
-          sector. Brindamos servicios de limpieza de alta calidad a comunidades, empresas y particulares.
+          H&amp;C Clean Pro nace como una empresa pequeña de limpieza en Barcelona, con una idea sencilla: 
+          hacer bien el trabajo y tratar a la gente con respeto.
         </p>
         <p>
-          Nuestro equipo está formado por profesionales cualificados y de confianza, comprometidos con la excelencia en
-          cada trabajo. Nos enorgullece nuestra atención al detalle y la satisfacción de nuestros clientes.
+          Empezamos con limpiezas de escaleras y de fin de obra y, poco a poco, vamos creciendo con comunidades, 
+          oficinas y clientes que nos recomiendan.
         </p>
         <p>
-          Nuestros valores se basan en la confianza, la responsabilidad y la mejora continua. Utilizamos productos
-          respetuosos con el medio ambiente y técnicas eficientes para garantizar resultados óptimos sin comprometer la
-          salud ni el planeta.
+          No prometemos cosas imposibles. Preferimos hablar claro, explicar qué incluye el servicio y cumplirlo. 
+          Si algo no se puede hacer, lo decimos directamente.
+        </p>
+        <p>
+          Nuestro objetivo es tener pocos clientes, pero bien atendidos, con un trato directo y sin cambios constantes 
+          de personal.
         </p>
       </section>
 
       <section>
-        <Image
-          src="/about-team.jpg"
-          width={1200}
-          height={800}
-          alt="Equipo profesional de limpieza de H&C Clean Pro"
-        />
+        <h2>Zona de trabajo</h2>
+        <p>
+          Trabajamos principalmente en Barcelona ciudad y alrededores. 
+          Para servicios de fin de obra o limpiezas puntuales, podemos valorar otras zonas cercanas.
+        </p>
       </section>
     </>
   );

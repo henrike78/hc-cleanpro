@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -13,20 +12,24 @@ export default function HomePage() {
         />
       </Head>
 
-      <section>
-        <h1>Limpieza de comunidades y fin de obra en Barcelona</h1>
-        <p>
-          Somos <strong>H&amp;C Clean Pro</strong>, una empresa pequeña de limpieza en Barcelona. 
-          Hacemos limpiezas de comunidades, escaleras, oficinas y pisos de fin de obra.
-        </p>
-        <p>
-          Llegamos a la hora, hacemos el trabajo que se ha acordado y dejamos todo recogido. 
-          Sin promesas vacías, sin contratos raros.
-        </p>
-        <Link href="/contact">
-          <a className="cta-button">Pedir presupuesto sin compromiso</a>
-        </Link>
+      <section className="hero">
+        <div className="hero-content">
+          <h1>Limpieza de comunidades y fin de obra en Barcelona</h1>
+          <p>
+            Somos <strong>H&amp;C Clean Pro</strong>, una empresa pequeña de limpieza en Barcelona. 
+            Hacemos limpiezas de comunidades, escaleras, oficinas y pisos de fin de obra.
+          </p>
+          <p>
+            Llegamos a la hora, hacemos el trabajo que se ha acordado y dejamos todo recogido. 
+            Sin promesas vacías, sin contratos raros.
+          </p>
+          <Link href="/contact">
+            <a className="cta-button">Pedir presupuesto sin compromiso</a>
+          </Link>
+        </div>
       </section>
+
+      {/* el resto de secciones (Qué ofrecemos, Cómo trabajamos…) se quedan igual */}
 
       <section>
         <div className="hero-wrapper">

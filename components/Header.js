@@ -10,8 +10,8 @@ export default function Header() {
             <Image
               src="/logo.png"
               alt="H&C Clean Pro - Servicios de Limpieza"
-              width={220}
-              height={56}
+              width={300}
+              height={300}
             />
           </a>
         </Link>

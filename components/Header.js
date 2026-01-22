@@ -6,14 +6,13 @@ export default function Header() {
     <header>
       <nav>
         <Link href="/">
-          <a className="logo">
+          <a className="logo" aria-label="H&C Clean Pro – Inicio">
             <Image
               src="/logo.png"
-              alt="H&C Clean Pro Logo"
-              width={40}
+              alt="H&C Clean Pro"
+              width={140}
               height={40}
             />
-            <span>H&amp;C Clean Pro</span>
           </a>
         </Link>
         <ul>

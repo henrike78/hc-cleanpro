@@ -52,7 +52,7 @@ nav {
 
 .logo img {
   display: block;
-  height: 100px;   /* altura visible del logo en la cabecera */
+  height: 120px;   /* altura visible del logo en la cabecera */
   width: auto;    /* mantiene la proporción original */
 }
 

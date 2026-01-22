@@ -9,9 +9,10 @@ export default function Header() {
           <a className="logo" aria-label="H&C Clean Pro – Inicio">
             <Image
               src="/logo.png"
-              alt="H&C Clean Pro"
-              width={140}
-              height={40}
+              alt="H&C Clean Pro – Servicios de Limpieza"
+              width={220}
+              height={220}
+              style={{ height: '56px', width: 'auto' }}
             />
           </a>
         </Link>

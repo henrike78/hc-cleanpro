@@ -40,16 +40,38 @@ export default function HomePage() {
       </section>
 
       <section>
-        <h2>Cómo trabajamos</h2>
+        <h2>Por qué contar con nosotros</h2>
         <ul>
-          <li>✔ Trabajo sencillo y claro: acordamos qué hay que hacer y lo cumplimos.</li>
-          <li>✔ Comunicación directa: si hay alguna incidencia, te avisamos al momento.</li>
-          <li>✔ Confianza: las mismas personas se encargan de tu comunidad u oficina.</li>
+          <li>✔ Trato directo con los responsables, sin intermediarios.</li>
+          <li>✔ Las mismas personas se encargan de tu comunidad u oficina.</li>
+          <li>✔ Avisamos si vemos cualquier incidencia en la finca o en el local.</li>
+          <li>✔ Facturación clara y sin contratos largos obligatorios.</li>
         </ul>
+      </section>
+
+      <section>
+        <h2>Trabajos recientes</h2>
         <p>
-          Si quieres, podemos empezar con un servicio puntual y, si quedas satisfecho,
-          hablar de un mantenimiento fijo.
+          Estos son algunos ejemplos de trabajos que hemos realizado. Puedes ver más detalles en la
+          página de <Link href="/trabajos"><a>Trabajos</a></Link>.
         </p>
+        <div className="work-grid">
+          <article className="work-card">
+            <h3>Fin de obra en piso de 90 m² (Gràcia)</h3>
+            <p>
+              Limpieza completa después de reforma: retirada de polvo de obra, repaso de cocina, baño y
+              cristales para dejar el piso listo para entrar a vivir.
+            </p>
+          </article>
+
+          <article className="work-card">
+            <h3>Comunidad de vecinos (Sant Andreu)</h3>
+            <p>
+              Limpieza semanal de escalera y portal en finca de 5 plantas. Barrido y fregado de rellanos,
+              barandillas y cristales de entrada.
+            </p>
+          </article>
+        </div>
       </section>
     </>
   );

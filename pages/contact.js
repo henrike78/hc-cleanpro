@@ -13,7 +13,7 @@ export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Contacto – H&amp;C Clean Pro</title>
+        <title>Contacto | H&amp;C Clean Pro</title>
         <meta
           name="description"
           content="Contacta con H&C Clean Pro para pedir un presupuesto de limpieza en Barcelona."
@@ -43,6 +43,19 @@ export default function ContactPage() {
             <input type="tel" id="phone" name="phone" placeholder="Tu teléfono (opcional)" />
           </div>
           <div>
+            <label htmlFor="service">Tipo de servicio</label>
+            <br />
+            <select id="service" name="service" defaultValue="">
+              <option value="" disabled>
+                Selecciona una opción
+              </option>
+              <option value="comunidad">Comunidad / escalera</option>
+              <option value="fin-obra">Fin de obra</option>
+              <option value="oficina">Oficina / negocio</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div>
             <label htmlFor="message">Qué necesitas</label>
             <br />
             <textarea
@@ -50,7 +63,7 @@ export default function ContactPage() {
               name="message"
               rows="4"
               required
-              placeholder="Cuéntanos si es comunidad, oficina, fin de obra, etc."
+              placeholder="Cuéntanos si es comunidad, oficina, fin de obra, zona de Barcelona, etc."
             />
           </div>
           <button type="submit" className="cta-button">
@@ -69,12 +82,11 @@ export default function ContactPage() {
         <h2>Otras formas de contacto</h2>
         <p>
           <strong>Email:</strong>{' '}
-          <a href="mailto:hyccleanpro@gmail.com">
-            hyccleanpro@gmail.com
-          </a>
+          <a href="mailto:hyccleanpro@gmail.com">hyccleanpro@gmail.com</a>
         </p>
         <p>
-          También puedes escribirnos directamente por WhatsApp con el botón que ves en la esquina inferior derecha.
+          También puedes escribirnos directamente por WhatsApp con el botón que ves en la esquina inferior
+          derecha.
         </p>
       </section>
     </>

@@ -308,3 +308,22 @@ footer .footer-inner {
     padding: 1.4rem 1.1rem;
   }
 }
+/* Botón flotante de WhatsApp: tamaño y posición coherentes */
+#whatsapp-button,
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+#whatsapp-button img,
+.whatsapp-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

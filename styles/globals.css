@@ -51,6 +51,7 @@ main {
   z-index: 50;
   background-color: #ffffff;
   border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06); /* NUEVO */
 }
 
 .header-inner {
@@ -63,7 +64,7 @@ main {
 }
 
 .logo-image {
-  height: 52px;
+  height: 72px;      /* antes 52px */
   width: auto;
   display: block;
 }

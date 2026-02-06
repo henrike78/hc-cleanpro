@@ -7,10 +7,10 @@ export default function Header() {
         {/* Logo */}
         <a href="/" className="logo">
           <img
-            src="/logo-hc-clean-pro.png" // pon aquí el nombre real de tu archivo de logo en /public
-            alt="H&C Clean Pro - Servicios de Limpieza"
-            className="logo-image"
-          />
+  src="/logo.png"
+  alt="H&C Clean Pro - Servicios de Limpieza"
+  className="logo-image"
+/>
         </a>
 
         {/* Navegación */}
